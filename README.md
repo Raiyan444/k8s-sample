@@ -1,7 +1,6 @@
 # k8s-sample
 
 K8s sample YAML file and some basic command
-
 >> kubectl get pod -o wide
 >> kubectl scale rc nginx-rc.yml --replicas=5
 >> kubectl get rc nginx-rc
