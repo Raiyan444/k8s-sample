@@ -2,10 +2,10 @@
 
 K8s sample YAML file and some basic command
 
->> kubectl get pod -o wide
->> kubectl scale rc nginx-rc.yml --replicas=5
->> kubectl get rc nginx-rc
->> kubectl describe rc nginx-rc
+ kubectl get pod -o wide
+ kubectl scale rc nginx-rc.yml --replicas=5
+ kubectl get rc nginx-rc
+ kubectl describe rc nginx-rc
 
 >> kubectl get deploy -l app=nginx-app
 >> kubectl scale deploy nginx-deploy --replicas=3
